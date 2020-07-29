@@ -17,12 +17,16 @@ Installation
 ============
 
 For Pip:
-`pip install -u parsegrammar`
+...
+pip install -u parsegrammar
+...
 
 If using PipEnv:
+...
 `pipenv shell`
 
 `pipenv install parsegrammar`
+...
 
 Usage
 =====
