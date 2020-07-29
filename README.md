@@ -17,25 +17,29 @@ Installation
 ============
 
 For Pip:
-...
+```
 pip install -u parsegrammar
-...
+```
 
 If using PipEnv:
-...
-`pipenv shell`
+```
+pipenv shell
 
-`pipenv install parsegrammar`
-...
-
+pipenv install parsegrammar
+```
 Usage
 =====
+## Import:
+```
+import grammar as gram
+```
 
-`import grammar as gram`
+## Creating Classes
+```
+pGraph = gram.Graph()
 
-`pGraph = gram.Graph()`
-
-`pGrammar = gram.Grammar(<start_symbol>, <end_symbol>, pGraph)`
+pGrammar = gram.Grammar(<start_symbol>, <end_symbol>, pGraph)
+```
 
 where <start_symbol> is a vertex within pGraph
 where <end_symbol> is a vertex, or list/set of verticies, within pGraph
