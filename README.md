@@ -41,7 +41,7 @@ pGraph = gram.Graph()
 pGrammar = gram.Grammar(<start_symbol>, <end_symbol>, pGraph)
 ```
 
-where <start_symbol> is a vertex within pGraph
-where <end_symbol> is a vertex, or list/set of verticies, within pGraph
+where `<start_symbol>` is a vertex within pGraph
+where `<end_symbol>` is a vertex, or list/set of verticies, within pGraph
 
-The <start_symbol> can not be an isolated vertex.
+The `<start_symbol>` can not be an isolated vertex.
