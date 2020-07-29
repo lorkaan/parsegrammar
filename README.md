@@ -8,8 +8,8 @@ The Directed Graph is useful for representing finite state machines in automatio
 
 For examples of the Parse Grammar library used see:
 - Pexpect Parser
-	- [Pypi](https://pypi.org/project/pexpectparser/)
 	- [Github](https://github.com/lorkaan/pexpectparser)
+	- [Pypi](https://pypi.org/project/pexpectparser/)
 - VPN Bot
 	- [Github](https://github.com/lorkkan/vpnBot)
 
