@@ -6,7 +6,7 @@ The Directed Graph is useful for representing finite state machines in automatio
 
 ## Examples
 
-For examples of the Parse Grammar library used see:
+For examples of the ParseGrammar library used see:
 - [Pexpect Parser](https://github.com/lorkaan/pexpectparser)
 	- [Pypi](https://pypi.org/project/pexpectparser/)
 - [VPN Bot](https://github.com/lorkkan/vpnBot)
@@ -43,3 +43,8 @@ where `<start_symbol>` is a vertex within pGraph
 where `<end_symbol>` is a vertex, or list/set of verticies, within pGraph
 
 The `<start_symbol>` can not be an isolated vertex.
+
+## Adding to the Graph
+```
+graph.addEdge(username, passPrompt, password)
+```
