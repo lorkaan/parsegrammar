@@ -45,6 +45,14 @@ where `<end_symbol>` is a vertex, or list/set of verticies, within pGraph
 The `<start_symbol>` can not be an isolated vertex.
 
 ## Adding to the Graph
+Edges can be added to the graph using the following syntax
 ```
-graph.addEdge(username, passPrompt, password)
+graph.addEdge(<vertexA>, <pattern>, <vertexB>)
 ```
+
+where `<vertexA>` is the current command run
+where `<vertexB>' is the next command to run
+where '<pattern>` is the regex pattern used as the control mechanism to decide if to run `<vertexB>`
+
+This allows for a command to have multiple options for the next command to run based on that commands output.
+	
