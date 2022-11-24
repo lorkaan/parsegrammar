@@ -1,4 +1,4 @@
-# Parse Grammar
+# ParseGrammar
 
 A library containing Directed Graph representing symbol to symbol translation with a Grammar class representing a start symbol and any terminal symbols.
 
@@ -10,8 +10,7 @@ For examples of the Parse Grammar library used see:
 - Pexpect Parser
 	- [Github](https://github.com/lorkaan/pexpectparser)
 	- [Pypi](https://pypi.org/project/pexpectparser/)
-- VPN Bot
-	- [Github](https://github.com/lorkkan/vpnBot)
+- [VPN Bot](https://github.com/lorkkan/vpnBot)
 
 Installation
 ============
